@@ -1,15 +1,15 @@
 {
-    "name": "adishardiseffectris/messenger",
+    "name": "rtippin/messenger",
     "description": "Laravel messenger suite.",
     "license": "MIT",
     "authors": [
         {
-            "name": "Richard Tippin / Adam Hardarson",
-            "email": "adam.hardarson@effectris.se",
-            "homepage": "https://effectris.se"
+            "name": "Richard Tippin",
+            "email": "tippindev@gmail.com",
+            "homepage": "https://tippindev.com"
         }
     ],
-    "homepage": "https://github.com/adishardiseffectris/messenger",
+    "homepage": "https://github.com/rtippin/messenger",
     "keywords": [
         "Laravel",
         "Messenger"
@@ -31,19 +31,19 @@
             "src/helpers.php"
         ],
         "psr-4": {
-            "AdisHardisEffectris\\Messenger\\": "src/",
-            "AdisHardisEffectris\\Messenger\\Database\\Factories\\": "database/factories/"
+            "RTippin\\Messenger\\": "src/",
+            "RTippin\\Messenger\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "AdisHardisEffectris\\Messenger\\Tests\\": "tests"
+            "RTippin\\Messenger\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "AdisHardisEffectris\\Messenger\\MessengerServiceProvider"
+                "RTippin\\Messenger\\MessengerServiceProvider"
             ],
             "aliases": {
                 "Messenger": "RTippin\\Messenger\\Facades\\Messenger"
